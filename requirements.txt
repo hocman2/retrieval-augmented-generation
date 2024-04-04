@@ -1,0 +1,6 @@
+pandas
+psycopg
+openai
+beautifulsoup4
+requests
+jupyter
