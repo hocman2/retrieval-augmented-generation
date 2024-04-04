@@ -26,6 +26,9 @@ https://docs.adonisjs.com/guides/introduction#what-is-adonisjs
 "What are container services ?"
 
 Container services are JavaScript modules that wrap container.make calls to allow for fetching objects using import statements instead. They act as a layer of indirection, enabling the use of a more unified syntax for importing and using modules, compared to a mix of import statements and container.make calls. Container services are utilized to resolve pre-configured objects within an application, commonly shipped with packages that interact with the container. They serve as an alternative to dependency injection, offering a way to request instances of classes from services within the container in a concise manner.
+Sources:
+https://docs.adonisjs.com/guides/container-services#the-need-for-container-services
+https://docs.adonisjs.com/guides/container-services#container-services-vs-dependency-injection
 ```
 
 ## Important disclaimer
@@ -45,7 +48,7 @@ This repo comes with all the tools needed to parse the documentation and populat
 To parse the whole doc simply run
 `python parse_adonis_doc.py`
 This will generate a *parsed_doc.csv* file which contains each section broken down into rows with the URL source and a breadcrumb pointer.
-Tables are formated as lists of list to make it more comprehensible to the LLM that will ultimately have to read it.
+Tables are formated as lists of list to make it more comprehensible to the LLM that will ultimately have to read it. 
 **Disclaimer**: This script doesn't parse code blocks because I didn't implement it 🛌
 **Disclaimer (2)**: This works as of April 2024 but changes to the website might break this script
 
